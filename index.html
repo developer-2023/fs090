@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+        }
+        .italic { font-style: italic; }
+        .oblique { font-style: oblique; }
+        .normal { font-style: normal; }
+        .small-caps { font-variant: small-caps; }
+        /*
+            font - property
+                font-style
+                font-variant
+                font-weight
+                font-size/line-height
+                font-family
+        */
+        .property-min {
+            font: 20px Arial;
+        }
+        .property-max {
+            font: italic small-caps bold 20px/30px Arial;
+        }
+    </style>
+</head>
+<body>
+    <p class="italic">italic</p>
+    <p class="oblique">oblique</p>
+    <p class="normal">normal</p>
+    <p class="small-caps">small-caps</p>
+    <p class="property-min">Lorem ipsum dolor sit amet.</p>
+    <p class="property-max">Lorem ipsum dolor sit amet.</p>
+</body>
+</html>
